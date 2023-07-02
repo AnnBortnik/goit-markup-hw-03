@@ -63,9 +63,6 @@ button {
     align-items: center;
     gap: 40px;
 }
-.nav-item {
-    padding: 24px 0;
-}
 .section {
     padding-top: 96px;
     padding-bottom: 120px;
@@ -84,7 +81,12 @@ button {
 .header-accent {
     color: var(--dark-brand-color);
 }
+
+.header-logo-text {
+    padding: 24px 0;
+}
 .nav-link {
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -99,6 +101,7 @@ button {
     font-style: normal;
 }
 .address-link {
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
